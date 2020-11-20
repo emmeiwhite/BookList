@@ -2,6 +2,7 @@ import "./App.css";
 import BookListContextProvider from "./contexts/BookListContext";
 import Navbar from "./components/Navbar";
 import BookList from "./components/BookList";
+import AddBook from "./components/AddBook";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App">
         <Navbar />
         <BookList />
+        <AddBook />
       </div>
     </BookListContextProvider>
   );
